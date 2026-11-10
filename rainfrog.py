@@ -27,8 +27,8 @@ class RainFrog (Generic[T]):
                  parent2: int | None = None,) -> None:
         self.genome = genome
         self.parent1 = parent1
-        self.parent2 = parent1
+        self.parent2 = parent2
         self.state = FrogState.ACTIVE
         self.generation = generation
         self.fitness = None
-        self.identity = idendity
+        self.identity = identity
